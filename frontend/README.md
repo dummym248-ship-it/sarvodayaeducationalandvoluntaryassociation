@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Educational Trust Website - React JS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A beautiful, responsive website for an Educational Trust managing three schools, built entirely with React JS.
 
-## Available Scripts
+## 🚀 Quick Start
 
-In the project directory, you can run:
+### Prerequisites
+- Node.js (v16 or higher) - [Download](https://nodejs.org/)
+- Yarn package manager
 
-### `npm start`
+```bash
+# Install Yarn globally if you don't have it
+npm install -g yarn
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Installation & Running
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+# 1. Navigate to the frontend folder
+cd frontend
 
-### `npm test`
+# 2. Install dependencies
+yarn install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 3. Start development server
+yarn start
+```
 
-### `npm run build`
+The app will automatically open at **http://localhost:3000**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🏫 Schools Included
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Dr. Babasaheb Ambedkar Nivasi Mukh Badhir Vidyalay**
+   - http://localhost:3000/school/badhir
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Shri Ambedkar Prathamik Vidyalay**
+   - http://localhost:3000/school/prathamik
 
-### `npm run eject`
+3. **Shri Ambedkar Madhyamik Vidyalay**
+   - http://localhost:3000/school/madhyamik
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🎨 Features
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Trust homepage with animated statistics
+- Individual school pages with dynamic routing
+- Image gallery with lightbox
+- Admission forms (frontend only)
+- Fully responsive design
+- Smooth animations
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🛠️ Technologies
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- React 19.0.0
+- React Router DOM 7.5.1
+- Framer Motion 12.25.0
+- Tailwind CSS
+- Shadcn UI
 
-## Learn More
+## 📦 No Backend Required
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Pure frontend application with no database or API needed!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Built with React JS**
